@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22B6A6611860484B001AB544 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A6601860484B001AB544 /* main.cpp */; };
 		22B6A6631860484B001AB544 /* Practica_7.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22B6A6621860484B001AB544 /* Practica_7.1 */; };
+		22B6A66D186048ED001AB544 /* img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A669186048ED001AB544 /* img.cpp */; };
+		22B6A66E186048ED001AB544 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6A66B186048ED001AB544 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		221893521860717C008D902D /* mallaRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mallaRegular.h; sourceTree = "<group>"; };
+		2218935318607561008D902D /* CodigoPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodigoPost.h; sourceTree = "<group>"; };
 		22B6A65D1860484B001AB544 /* Practica 7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practica 7"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B6A6601860484B001AB544 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		22B6A6621860484B001AB544 /* Practica_7.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Practica_7.1; sourceTree = "<group>"; };
+		22B6A669186048ED001AB544 /* img.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = img.cpp; sourceTree = "<group>"; };
+		22B6A66A186048ED001AB544 /* img.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = img.h; sourceTree = "<group>"; };
+		22B6A66B186048ED001AB544 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		22B6A66C186048ED001AB544 /* mapaUsa.ppm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapaUsa.ppm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,13 @@
 		22B6A65F1860484B001AB544 /* Practica 7 */ = {
 			isa = PBXGroup;
 			children = (
-				22B6A6601860484B001AB544 /* main.cpp */,
+				2218935318607561008D902D /* CodigoPost.h */,
+				22B6A669186048ED001AB544 /* img.cpp */,
+				22B6A66A186048ED001AB544 /* img.h */,
+				22B6A66B186048ED001AB544 /* main.cpp */,
+				22B6A66C186048ED001AB544 /* mapaUsa.ppm */,
 				22B6A6621860484B001AB544 /* Practica_7.1 */,
+				221893521860717C008D902D /* mallaRegular.h */,
 			);
 			path = "Practica 7";
 			sourceTree = "<group>";
@@ -117,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B6A6611860484B001AB544 /* main.cpp in Sources */,
+				22B6A66E186048ED001AB544 /* main.cpp in Sources */,
+				22B6A66D186048ED001AB544 /* img.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +237,7 @@
 				22B6A6681860484B001AB544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
